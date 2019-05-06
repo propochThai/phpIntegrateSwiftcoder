@@ -12,7 +12,7 @@
   </head>
   <body>
     <h1>Test Upload File</h1>
-    
+    <main role="main">
     <div class='container'>
 <form  method="post" action="post.php" method="POST" enctype="multipart/form-data" >
 
@@ -32,6 +32,9 @@
 
 
 </form>
+</div>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
