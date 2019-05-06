@@ -23,7 +23,7 @@
 
 <div class="form-group">
 <label for="exampleInputEmail1">Upload File</label>
-<input type='file' name='video' id='video' class="form-control" required/>
+<input type='file' name='fileToUpload' id='fileToUpload' class="form-control" required/>
 </div>
 
 
