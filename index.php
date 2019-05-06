@@ -11,7 +11,26 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <h1>Test Upload File</h1>
+    <div id='container'>
+<form  method="post" action="post.php" method="POST" enctype="multipart/form-data" >
+
+<div class="form-group">
+<label for="exampleInputEmail1">Title Name </label>
+<input type='text' name='title' id='title' class="form-control" required/>
+</div>
+
+<div class="form-group">
+<label for="exampleInputEmail1">Upload File</label>
+<input type='file' name='video' id='video' class="form-control" required/>
+</div>
+
+
+<button type="submit" class="btn btn-primary">Upload</button>
+
+
+
+</form>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
