@@ -12,7 +12,8 @@
   </head>
   <body>
     <h1>Test Upload File</h1>
-    <div id='container'>
+    
+    <div class='container'>
 <form  method="post" action="post.php" method="POST" enctype="multipart/form-data" >
 
 <div class="form-group">
